@@ -15,6 +15,7 @@ class time
         void sum(time);
         void putdata();
 };
+/* this is a code to sum time */
 void time::sum(time t1)
 {
     minutes = (t1.hours*60) + t1.minutes;
