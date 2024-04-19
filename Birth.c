@@ -3,7 +3,7 @@
 int main() {
     int day, month, year;
 
-    // Get birthdate input
+    
     printf("Enter your birthdate (day month year): ");
     scanf("%d %d %d", &day, &month, &year);
 
