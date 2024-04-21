@@ -9,7 +9,7 @@ public:
     string model;
     int year;
 
-    // Methods (functions)
+    
     void start() {
         cout << "Starting the " << brand << " " << model << "...\n";
     }
