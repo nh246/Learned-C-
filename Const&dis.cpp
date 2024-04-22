@@ -4,7 +4,6 @@ class add
 {
     int sum;
     public:
-        // add(){}; //default constructor
         add()        //default constructor
         {
             sum = 0;
