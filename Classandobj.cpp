@@ -4,7 +4,7 @@ using namespace std;
 // Define a class called "Car"
 class Car {
 public:
-    // Properties (attributes)
+    
     string brand;
     string model;
     int year;
@@ -19,8 +19,7 @@ public:
     }
 };
 
-int main() {
-    // Create objects (instances) of the "Car" class
+int main() 
     Car car1;
     car1.brand = "Toyota";
     car1.model = "Camry";
