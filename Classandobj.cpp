@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-// Define a class called "Car"
 class Car {
 public:
     
