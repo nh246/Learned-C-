@@ -14,7 +14,7 @@ double distance(Point a, Point b) {
 std::vector<int> nearestNeighbor(std::vector<Point>& points) {
     int n = points.size();
     std::vector<int> tour;
-    tour.push_back(0); // Start from the first point
+    tour.push_back(0); 
 
     std::vector<bool> visited(n, false);
     visited[0] = true;
