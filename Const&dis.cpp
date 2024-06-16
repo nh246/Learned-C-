@@ -4,11 +4,11 @@ class add
 {
     int sum;
     public:
-        add()        //default constructor
+        add()        
         {
             sum = 0;
         }
-        add(int a,int b,int c = 10) //default argument constructor
+        add(int a,int b,int c = 10) 
         {
             sum = a + b + c;
             cout<<"Sum = "<<sum<<endl;
@@ -18,7 +18,7 @@ class subtract
 {
     int sub = 0;
     public:
-        subtract(int a = 50,int b = 10)   //default constructor
+        subtract(int a = 50,int b = 10) 
         {
             sub = a - b;
             cout<<"Subtract = "<<sub<<endl;
