@@ -1,8 +1,8 @@
 #include <iostream>
 
 int main() {
-    const int size = 5; // Change the size according to your array
-    int arr[size] = {1, 2, 3, 4, 5}; // Replace with your array
+    const int size = 5; 
+    int arr[size] = {1, 2, 3, 4, 5}; 
 
     std::cout << "Non-integer elements in the array: ";
 
