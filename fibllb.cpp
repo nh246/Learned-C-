@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Recursive Fibonacci function
+
 int recursiveFibonacci(int n) {
     if (n <= 1)
         return n;
@@ -8,7 +8,7 @@ int recursiveFibonacci(int n) {
         return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 }
 
-// Iterative Fibonacci function
+
 int iterativeFibonacci(int n) {
     if (n <= 1)
         return n;
