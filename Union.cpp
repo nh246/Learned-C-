@@ -30,7 +30,7 @@ std::vector<int> unionOfArrays(const std::vector<int>& a, const std::vector<int>
         j++;
     }
 
-    // Remove duplicates
+    
     unionArray.erase(std::unique(unionArray.begin(), unionArray.end()), unionArray.end());
 
     return unionArray;
