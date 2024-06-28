@@ -8,6 +8,9 @@ typedef struct {
     float ratio;
 } Item;
 
+
+
+
 void swap(Item *a, Item *b) {
     Item temp = *a;
     *a = *b;
