@@ -15,7 +15,7 @@ int main() {
     int n = 5;
     std::vector<int> result = generateArray(n);
     
-    // Printing the result
+
     for (int num : result) {
         std::cout << num << " ";
     }
