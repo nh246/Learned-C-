@@ -11,7 +11,7 @@ void towerOfHanoi(int n, char source, char auxiliary, char destination) {
 }
 
 int main() {
-    int num_disks = 3; // Change the number of disks here
+    int num_disks = 3; 
     towerOfHanoi(num_disks, 'A', 'B', 'C');
     return 0;
 }
