@@ -2,13 +2,13 @@
 
 #define MAX_SIZE 100
 
-int set[MAX_SIZE]; // Array to store the input set
-int subset[MAX_SIZE]; // Array to store the subset
-int n; // Size of the set
-int sum; // Target sum
+int set[MAX_SIZE]; 
+int subset[MAX_SIZE]; 
+int n; 
+int sum; 
 
 void generateSubset(int depth, int currentSum, int start) {
-    if (currentSum == sum) { // If the subset sum equals the target sum
+    if (currentSum == sum) { 
         printf("{ ");
         for (int i = 0; i < depth; i++) {
             printf("%d ", subset[i]);
