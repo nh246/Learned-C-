@@ -5,7 +5,8 @@
 int set[MAX_SIZE]; 
 int subset[MAX_SIZE]; 
 int n; 
-int sum; 
+int sum;
+int nums;
 
 void generateSubset(int depth, int currentSum, int start) {
     if (currentSum == sum) { 
