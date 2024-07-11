@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-
+int rev = 5;
 int main()
 {
     int N = 123;
