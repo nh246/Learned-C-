@@ -3,17 +3,17 @@
 #include <conio.h>
 #include <windows.h>
 
-// Define the dimensions of the game board
+
 #define WIDTH 50
 #define HEIGHT 25
 
-// Define the directions
+
 #define UP 0
 #define DOWN 1
 #define LEFT 2
 #define RIGHT 3
 
-// Define the snake structure
+
 typedef struct {
     int x;
     int y;
