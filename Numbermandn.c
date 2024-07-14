@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 void findMaxMin(int arr[], int size, int *max, int *min) {
-    *max = *min = arr[0]; // Assume the first element as both max and min initially
+    *max = *min = arr[0]; 
 
     for (int i = 1; i < size; i++) {
         if (arr[i] > *max) {
-            *max = arr[i]; // Update max if a larger element is found
+            *max = arr[i]; 
         } else if (arr[i] < *min) {
-            *min = arr[i]; // Update min if a smaller element is found
+            *min = arr[i]; 
         }
     }
 }
