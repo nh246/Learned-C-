@@ -9,13 +9,13 @@ private:
 
 public:
     TowerOfHanoi(int n) : num_disks(n) {
-        // Initialize the pegs
+        
         for (int i = 0; i < 3; ++i) {
             std::stack<int> s;
             pegs.push_back(s);
         }
 
-        // Add disks to the first peg
+    
         for (int i = num_disks; i >= 1; --i) {
             pegs[0].push(i);
         }
